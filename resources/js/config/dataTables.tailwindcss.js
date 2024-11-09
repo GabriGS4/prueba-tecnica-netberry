@@ -60,20 +60,20 @@ import DataTable from 'datatables.net-dt';
     $.extend( true, DataTable.ext.classes, {
         container: "dt-container dt-tailwindcss",
         search: {
-            input: "input input-sm",
+            input: "block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
         },
         length: {
-            select: "select select-sm",
+            select: " p-1 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500",
         },
         processing: {
             container: "dt-processing"
         },
         paging: {
-            active: 'btn disabled bg-gray-200',
+            active: 'px-2 py-1 mx-1 text-xs font-medium text-center text-white bg-gray-200 rounded-lg hover:bg-gray-800   dark:bg-gray-600 dark:hover:bg-gray-700',
             notActive: 'bg-transparent',
-            button: 'btn',
+            button: 'px-2 py-1 text-xs mx-1 font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800  dark:bg-gray-600 dark:hover:bg-gray-700 ',
             enabled: 'btn',
-            notEnabled: 'text-gray-300 dark:text-gray-600'
+            notEnabled: 'text-gray-300'
         },
         table: 'dataTable min-w-full text-sm align-middle whitespace-nowrap',
         thead: {

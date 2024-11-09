@@ -6,15 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class TaskCategory extends Model
 {
+    protected $table = 'task_categories';
     protected $fillable = ['name'];
-
-    public function tasks()
-    {
-        return $this->belongsToMany(Task::class);
-    }
-
-    public function categories()
-    {
-        return $this->belongsToMany(Category::class);
-    }
 }

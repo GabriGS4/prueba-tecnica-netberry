@@ -16,7 +16,14 @@
     },
     "dependencies": {
         "datatables.net-dt": "^2.1.8",
+        "datatables.net-fixedcolumns-dt": "^5.0.4",
+        "datatables.net-fixedheader-dt": "^4.0.1",
+        "datatables.net-rowgroup-dt": "^1.5.1",
+        "datatables.net-rowreorder-dt": "^1.5.0",
         "datatables.net-scroller-dt": "^2.4.3",
-        "jquery": "^3.7.1"
+        "datatables.net-searchbuilder-dt": "^1.8.1",
+        "jquery": "^3.7.1",
+        "sweetalert2": "^11.14.5",
+        "toastr": "^2.1.4"
     }
 }
